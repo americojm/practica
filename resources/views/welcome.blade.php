@@ -30,7 +30,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="{{ $proyecto->imagen }}" alt="..." />
+                                    <input type="file" img class="img-fluid rounded mb-5" src="{{ $proyecto->imagen }}" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">{{ $proyecto->descripcion }}.</p>
                                     <a href="{{ $proyecto->url }} "  class="btn btn-primary" >
